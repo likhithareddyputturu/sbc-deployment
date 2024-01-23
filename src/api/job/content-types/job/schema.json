@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "job",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "companyLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "workType": {
+      "type": "enumeration",
+      "enum": [
+        "Online",
+        "Offline"
+      ],
+      "required": true
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "applyBy": {
+      "type": "date"
+    },
+    "aboutCompany": {
+      "type": "richtext"
+    },
+    "aboutWorkRequirements": {
+      "type": "richtext"
+    },
+    "whoCanApply": {
+      "type": "richtext"
+    },
+    "perks": {
+      "type": "json"
+    },
+    "noOfOpenings": {
+      "type": "integer"
+    },
+    "recuriterDetails": {
+      "type": "richtext"
+    },
+    "stipend": {
+      "type": "string"
+    },
+    "WorkCity": {
+      "type": "string"
+    },
+    "durationType": {
+      "type": "enumeration",
+      "enum": [
+        "Week",
+        "Month"
+      ]
+    },
+    "skillsRequired": {
+      "type": "json"
+    }
+  }
+}

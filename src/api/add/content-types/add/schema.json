@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adds",
+  "info": {
+    "singularName": "add",
+    "pluralName": "adds",
+    "displayName": "add",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brandImageTop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}
