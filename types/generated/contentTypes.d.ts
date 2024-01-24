@@ -776,7 +776,7 @@ export interface ApiAddAdd extends Schema.CollectionType {
   info: {
     singularName: 'add';
     pluralName: 'adds';
-    displayName: 'add';
+    displayName: 'offersAdvertisement';
     description: '';
   };
   options: {
